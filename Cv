@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mariam Mourad CV</title>
+    <h1 style="text-align:center;">CV</h1>
+    <style>
+        body{
+            background-color:rgb(157, 190, 233) ;       
+         }
+        .personalInfo {
+            background-color: rgb(101, 147, 173);
+            display: flex;
+        }
+        .inputs {
+            color: rgb(235, 237, 241);
+        }
+        .education {
+            display: flex;
+        }
+        .table {
+            margin-left: 0px;
+            background-color: rgb(101, 147, 173);
+            text-align: center;
+            height: 300px;
+            width: 1500px;
+        }
+        .skills {
+            background-color: rgb(101, 147, 173);
+            align-items: center;  
+        }
+    </style>
+</head>
+<body>
+    <hr/>
+    <h2 style="text-align:center;">Informatat Personale</h2>
+    <div class="personalInfo">
+        <img style="width: 200px ; margin-left: 200px; margin-top: 40px; margin-bottom: 40px; border: black;"
+            src="https://thumbs.dreamstime.com/b/default-avatar-profile-vector-user-profile-default-avatar-profile-vector-user-profile-profile-179376714.jpg">
+
+        <h3 style="margin: 40px; margin-top: 70px; ">
+            Emri: <i class="inputs">Mariam</i>
+            <br />
+            Mbiemri: <i class="inputs">Mourad</i>
+            <br />
+            Data e lindjes: <i class="inputs">28.08.2002</i>
+            <br />
+            Email: <i class="inputs">mariam.mourad@student.uni-pr.edu</i>
+            <br />
+            Numri i Telefonit: <i class="inputs">+38345971091</i>
+
+        </h3>
+    </div>
+    <hr/>
+    <h2 style="text-align: center;">Edukimi</h2>
+    <div class="education">
+
+
+        <table class="table" border="3">
+            <thead>
+                <tr>
+                    <th>Shkollimi</th>
+                    <th>Institucioni</th>
+                    <th>Kohëzgjatja</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Shkolla fillore</td>
+                    <td>"Dardania"</td>
+                    <td>2010 - 2018</td>
+                </tr>
+                <tr>
+                    <td>Shkolla e mesme</td>
+                    <td>"Sami Frasheri"</td>
+                    <td>2018 - 2021</td>
+                </tr>
+                <tr>
+                    <td>Universiteti</td>
+                    <td>"Hasan Prishtina"</td>
+                    <td>2021 - vijon </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr/>
+    <h2 style="text-align: center;">Aftësitë</h2>
+    <div class="skills">
+        <ul class="listOfskills">
+            <li>Aftësia që të punojë në grupe për projekte të ndryshme</li>
+            <li>Njohuri të mira në C++, Java dhe Python</li>
+            <li>Zgjidhja e problemeve të komplikuara</li>
+        </ul>
+    </div>
+</body>
+</html>
